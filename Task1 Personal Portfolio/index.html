@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #EAECEF;
+            color: #2E2E2E;
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: #1F3C88;
+            color: #FFFFFF;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(128, 128, 244);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: #4273fb;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(112, 190, 245);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+        }
+
+        /* ===== Common Section Styling ===== */
+        .secondsection {
+            margin: 60px auto;
+            max-width: 80vw;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: #1F3C88;
+        }
+
+       
+        /* ===== Skills Tags Styling ===== */
+        .skills-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .skill-tag {
+            background-color: #4273fb;
+            color: #ffffff;
+            padding: 12px 26px;
+            border-radius: 28px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: default;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .skill-tag:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 18px rgba(66, 115, 251, 0.35);
+        }
+
+        /* ===== Projects Section ===== */
+        .project {
+            background-color: #f2f5ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #4273fb;
+        }
+
+        .project p {
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* ===== Resume Section ===== */
+        .secondsection a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 18px;
+            background-color: #1F3C88;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.95rem;
+        }
+
+        .secondsection a:hover {
+            background-color: #4273fb;
+        }
+
+        /* ===== Contact Section ===== */
+        .secondsection p {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            background-color: #1F3C88;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vaishnavi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Vaishnavi</span>
+                <div>and I am a passionate</div>
+                <div> Web Developer</div>
+            </div>
+            <div class="rightsection">
+                <img src="https://www.sectorlink.com/img/blog/development-pitfalls.png" alt="image">
+            </div>
+        </section>
+        <hr>
+        <!--skills-->
+        <section class="secondsection">
+            <h1>Skills</h1>
+
+            <div class="skills-tags">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Willingness to learn</span>
+            </div>
+        </section>
+
+        <hr>
+        <!--project-->
+        <section class="secondsection">
+            <h1>Projects</h1>
+
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    Designed and developed a responsive personal portfolio using HTML and CSS.
+                    This project helped me understand layouts, typography, and color combinations.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Basic Calculator</h3>
+                <p>
+                    Built a simple calculator using JavaScript to perform basic arithmetic
+                    operations and understand event handling.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <!--Resume-->
+        <section class="secondsection">
+            <h1>Resume</h1>
+            <p>
+                You can download my resume to know more about my education, skills, and projects.
+            </p>
+            <a href="resume.pdf" download>Download Resume (PDF)</a>
+        </section>
+        <hr>
+        <!--contact me-->
+        <section class="secondsection">
+            <h1>Contact Me</h1>
+            <p>Email: vaishnavi@example.com</p>
+            <p>Phone: +91 XXXXXXXXXX</p>
+            <p>
+                I am open to internships, learning opportunities, and collaborations.
+            </p>
+        </section>
+        <footer>
+            <p>© 2026 Vaishnavi Nalawade. All rights reserved.</p>
+        </footer>
+
+        </section>
+    </main>
+</body>
+
+</html>
